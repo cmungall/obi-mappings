@@ -1,0 +1,5 @@
+RDF-Cache
+venv
+*.old
+downloads/
+

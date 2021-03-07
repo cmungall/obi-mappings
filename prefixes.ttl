@@ -1,0 +1,15 @@
+@prefix sh:     <http://www.w3.org/ns/shacl#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+[
+ sh:declare
+ [ sh:prefix "BFO" ; sh:namespace "http://purl.obolibrary.org/obo/BFO_"]
+,[ sh:prefix "biolink" ; sh:namespace "https://w3id.org/biolink/vocab/"]
+,[ sh:prefix "OBI" ; sh:namespace "http://purl.obolibrary.org/obo/OBI_"]
+,[ sh:prefix "MESH" ; sh:namespace "http://id.nlm.nih.gov/mesh/"]
+,[ sh:prefix "BAO" ; sh:namespace "http://www.bioassayontology.org/bao#BAO_"],
+  [
+    sh:prefix "sio" ; 
+    sh:namespace "http://semanticscience.org/resource/SIO_"
+  ] 
+].

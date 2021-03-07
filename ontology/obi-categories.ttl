@@ -1,0 +1,16 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix OBI: <http://purl.obolibrary.org/obo/OBI_> .
+@prefix BFO: <http://purl.obolibrary.org/obo/BFO_> .
+@prefix IAO: <http://purl.obolibrary.org/obo/IAO_> .
+@prefix biolink: <https://w3id.org/biolink/vocab/> .
+
+## TODO: replace with OBO or actual biolink categories
+OBI:0000968 biolink:category biolink:Device .
+OBI:0000070 biolink:category biolink:Assay .
+BFO:0000023 biolink:category biolink:Role .
+BFO:0000040 biolink:category biolink:MaterialEntity .
+OBI:0000427 biolink:category biolink:Enzyme .
+OBI:0000011 biolink:category biolink:PlannedProcess .
+IAO:0000104 biolink:category biolink:Plan .
+OBI:0000905 biolink:category biolink:SequenceFeature .
+

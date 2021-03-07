@@ -1,0 +1,182 @@
+#license: "https://creativecommons.org/publicdomain/zero/1.0/"
+#mapping_tool: "https://github.com/cmungall/rdf_matcher"
+#mapping_date: "2021-03-07"
+#curie_map:
+#  BAO: "http://www.bioassayontology.org/bao#BAO_"
+#  BFO: "http://purl.obolibrary.org/obo/BFO_"
+#  OBI: "http://purl.obolibrary.org/obo/OBI_"
+#  dc: "http://purl.org/dc/elements/1.1/"
+#  dcterms: "http://purl.org/dc/terms/"
+#  foaf: "http://xmlns.com/foaf/0.1/"
+#  oio: "http://www.geneontology.org/formats/oboInOwl#"
+#  owl: "http://www.w3.org/2002/07/owl#"
+#  rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+#  skos: "http://www.w3.org/2004/02/skos/core#"
+#  xsd: "http://www.w3.org/2001/XMLSchema#"
+subject_id	subject_label	predicate_id	object_id	object_label	match_type	subject_source	object_source	mapping_tool	confidence	subject_match_field	object_match_field	subject_category	object_category	match_string	match_category	comment
+OBI:0400047	gas laser	owl:equivalentClass	BAO:0150036	gas laser	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Device	assay method component	gas las	unique	.
+OBI:0400047	gas laser	owl:equivalentClass	BAO:0150036	gas laser	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	gas laser	unique	.
+OBI:0400047	gas laser	owl:equivalentClass	BAO:0150036	gas laser	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	gaslaser	unique	.
+OBI:0400096	solid state laser	owl:equivalentClass	BAO:0150045	solid state laser	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	lasersolidstate	unique	.
+OBI:0400096	solid state laser	owl:equivalentClass	BAO:0150045	solid state laser	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Device	assay method component	solid state las	unique	.
+OBI:0400096	solid state laser	owl:equivalentClass	BAO:0150045	solid state laser	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	solid state laser	unique	.
+OBI:0002082	reporter gene assay	owl:equivalentClass	BAO:0003006	reporter gene assay	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	Assay	assay bioassay component	assaygenereporter	unique	.
+OBI:0002082	reporter gene assay	owl:equivalentClass	BAO:0003006	reporter gene assay	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	Assay	assay bioassay component	reporter gene assai	unique	.
+OBI:0002082	reporter gene assay	owl:equivalentClass	BAO:0003006	reporter gene assay	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	Assay	assay bioassay component	reporter gene assay	unique	.
+OBI:0100026	organism	owl:equivalentClass	BAO:0000551	organism	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	MaterialEntity	assay biology component	organ	many_to_many	.
+OBI:0100026	organism	owl:equivalentClass	BAO:0002921	has organism	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	MaterialEntity	has organism	organ	many_to_many	.
+OBI:0100026	organism	owl:equivalentClass	BAO:0002934	organization	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	MaterialEntity	organization	organ	many_to_many	.
+OBI:0100026	organism	owl:equivalentClass	BAO:0000551	organism	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	MaterialEntity	assay biology component	organism	many_to_many	.
+OBI:0100026	organism	owl:equivalentClass	BAO:0000551	organism	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	MaterialEntity	assay biology component	organism	many_to_many	.
+OBI:0100026	organism	owl:equivalentClass	BAO:0002921	has organism	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	MaterialEntity	has organism	organism	many_to_many	.
+OBI:0000423	extract	owl:equivalentClass	BAO:0003070	extract	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	MaterialEntity	quality	extract	many_to_one	.
+OBI:0000423	extract	owl:equivalentClass	BAO:0003070	extract	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	MaterialEntity	quality	extract	many_to_one	.
+OBI:0000423	extract	owl:equivalentClass	BAO:0003070	extract	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	MaterialEntity	quality	extract	many_to_one	.
+OBI:0000835	manufacturer	owl:equivalentClass	BAO:0000737	has manufacturer	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	MaterialEntity	has manufacturer	manufactur	many_to_one	.
+OBI:0000835	manufacturer	owl:equivalentClass	BAO:0000737	has manufacturer	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	MaterialEntity	has manufacturer	manufacturer	many_to_one	.
+OBI:0302884	extraction	owl:equivalentClass	BAO:0003070	extract	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	PlannedProcess	quality	extract	many_to_one	.
+OBI:0000415	polymerase chain reaction	owl:equivalentClass	BAO:0002080	polymerase chain reaction	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	PlannedProcess	assay method component	chainpolymerasereaction	unique	.
+OBI:0000415	polymerase chain reaction	owl:equivalentClass	BAO:0002080	polymerase chain reaction	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	PlannedProcess	assay method component	polymerase chain react	unique	.
+OBI:0000415	polymerase chain reaction	owl:equivalentClass	BAO:0002080	polymerase chain reaction	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	PlannedProcess	assay method component	polymerase chain reaction	unique	.
+OBI:0200041	k-means clustering	owl:equivalentClass	BAO:0002344	k means clustering	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	PlannedProcess	assay method component	clusteringkmeans	unique	.
+OBI:0000571	manufacturer role	owl:equivalentClass	BAO:0000558	manufacturer role	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	Role	role	manufacturer rol	unique	.
+OBI:0000571	manufacturer role	owl:equivalentClass	BAO:0000558	manufacturer role	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	Role	role	manufacturer role	unique	.
+OBI:0000571	manufacturer role	owl:equivalentClass	BAO:0000558	manufacturer role	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	Role	role	manufacturerrole	unique	.
+OBI:0000079	culture medium	owl:equivalentClass	BAO:0000114	culture medium	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	MaterialEntity	assay method component	culture medium	unique	.
+OBI:0000079	culture medium	owl:equivalentClass	BAO:0000114	culture medium	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	MaterialEntity	assay method component	culture medium	unique	.
+OBI:0000079	culture medium	owl:equivalentClass	BAO:0000114	culture medium	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	MaterialEntity	assay method component	culturemedium	unique	.
+OBI:0200080	network analysis	owl:equivalentClass	BAO:0002361	network analysis	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	PlannedProcess	assay method component	analysisnetwork	unique	.
+OBI:0200080	network analysis	owl:equivalentClass	BAO:0002361	network analysis	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	PlannedProcess	assay method component	network analysi	unique	.
+OBI:0200080	network analysis	owl:equivalentClass	BAO:0002361	network analysis	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	PlannedProcess	assay method component	network analysis	unique	.
+OBI:0000439	agarose gel	owl:equivalentClass	BAO:0010020	agarose gel	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	MaterialEntity	assay bioassay component	agarose gel	unique	.
+OBI:0000439	agarose gel	owl:equivalentClass	BAO:0010020	agarose gel	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	MaterialEntity	assay bioassay component	agarose gel	unique	.
+OBI:0000439	agarose gel	owl:equivalentClass	BAO:0010020	agarose gel	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	MaterialEntity	assay bioassay component	agarosegel	unique	.
+OBI:0400073	metal vapor laser	owl:equivalentClass	BAO:0150042	metal vapor laser	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	lasermetalvapor	unique	.
+OBI:0400073	metal vapor laser	owl:equivalentClass	BAO:0150042	metal vapor laser	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Device	assay method component	metal vapor las	unique	.
+OBI:0400073	metal vapor laser	owl:equivalentClass	BAO:0150042	metal vapor laser	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	metal vapor laser	unique	.
+OBI:0000690	immunoprecipitation	owl:equivalentClass	BAO:0002508	immunoprecipitation	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	PlannedProcess	assay method component	immunoprecipit	unique	.
+OBI:0000690	immunoprecipitation	owl:equivalentClass	BAO:0002508	immunoprecipitation	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	PlannedProcess	assay method component	immunoprecipitation	unique	.
+OBI:0000690	immunoprecipitation	owl:equivalentClass	BAO:0002508	immunoprecipitation	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	PlannedProcess	assay method component	immunoprecipitation	unique	.
+OBI:0400143	fluorometer	owl:equivalentClass	BAO:0000913	Fluorometer	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Device	assay method component	fluoromet	unique	.
+OBI:0400143	fluorometer	owl:equivalentClass	BAO:0000913	Fluorometer	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	fluorometer	unique	.
+OBI:0400143	fluorometer	owl:equivalentClass	BAO:0000913	Fluorometer	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	fluorometer	unique	.
+OBI:0500016	fractional factorial design	owl:equivalentClass	BAO:0002338	fractional factorial design	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Plan	assay method component	designfactorialfractional	unique	.
+OBI:0500016	fractional factorial design	owl:equivalentClass	BAO:0002338	fractional factorial design	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Plan	assay method component	fractional factorial design	unique	.
+OBI:0500016	fractional factorial design	owl:equivalentClass	BAO:0002338	fractional factorial design	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Plan	assay method component	fractional factorial design	unique	.
+OBI:0001070	scintillation counter	owl:equivalentClass	BAO:0000405	scintillation counting	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Device	assay method component	scintillation count	unique	.
+OBI:0001096	laser capture microdissection microscope	owl:equivalentClass	BAO:0150013	laser capture microdissection microscope	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	capturelasermicrodissectionmicroscope	unique	.
+OBI:0001096	laser capture microdissection microscope	owl:equivalentClass	BAO:0150013	laser capture microdissection microscope	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Device	assay method component	laser capture microdissection microscop	unique	.
+OBI:0001096	laser capture microdissection microscope	owl:equivalentClass	BAO:0150013	laser capture microdissection microscope	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	laser capture microdissection microscope	unique	.
+OBI:0001125	laser scanning confocal microscope	owl:equivalentClass	BAO:0150011	laser scanning confocal microscope	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	confocallasermicroscopescanning	unique	.
+OBI:0001125	laser scanning confocal microscope	owl:equivalentClass	BAO:0150011	laser scanning confocal microscope	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Device	assay method component	laser scanning confocal microscop	unique	.
+OBI:0001125	laser scanning confocal microscope	owl:equivalentClass	BAO:0150011	laser scanning confocal microscope	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	laser scanning confocal microscope	unique	.
+OBI:0400084	photomultiplier tube	owl:equivalentClass	BAO:0150028	photomultiplier tube	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Device	assay method component	photomultiplier tub	unique	.
+OBI:0400084	photomultiplier tube	owl:equivalentClass	BAO:0150028	photomultiplier tube	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	photomultiplier tube	unique	.
+OBI:0400084	photomultiplier tube	owl:equivalentClass	BAO:0150028	photomultiplier tube	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	photomultipliertube	unique	.
+OBI:0000748	bisulfite sequencing assay	owl:equivalentClass	BAO:0010037	Bisulfite Sequencing assay	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	Assay	assay bioassay component	assaybisulfitesequencing	unique	.
+OBI:0000748	bisulfite sequencing assay	owl:equivalentClass	BAO:0010037	Bisulfite Sequencing assay	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	Assay	assay bioassay component	bisulfite sequencing assai	unique	.
+OBI:0000748	bisulfite sequencing assay	owl:equivalentClass	BAO:0010037	Bisulfite Sequencing assay	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	Assay	assay bioassay component	bisulfite sequencing assay	unique	.
+OBI:0002625	gene knockdown	owl:equivalentClass	BAO:0002433	gene knockdown	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	PlannedProcess	assay method component	gene knockdown	unique	.
+OBI:0002625	gene knockdown	owl:equivalentClass	BAO:0002433	gene knockdown	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	PlannedProcess	assay method component	gene knockdown	unique	.
+OBI:0002625	gene knockdown	owl:equivalentClass	BAO:0002433	gene knockdown	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	PlannedProcess	assay method component	geneknockdown	unique	.
+OBI:0000245	organization	owl:equivalentClass	BAO:0000551	organism	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	MaterialEntity	assay biology component	organ	many_to_many	.
+OBI:0000245	organization	owl:equivalentClass	BAO:0002921	has organism	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	MaterialEntity	has organism	organ	many_to_many	.
+OBI:0000245	organization	owl:equivalentClass	BAO:0002934	organization	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	MaterialEntity	organization	organ	many_to_many	.
+OBI:0000245	organization	owl:equivalentClass	BAO:0002934	organization	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	MaterialEntity	organization	organization	many_to_many	.
+OBI:0000245	organization	owl:equivalentClass	BAO:0002934	organization	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	MaterialEntity	organization	organization	many_to_many	.
+OBI:0001149	gene knock in	owl:equivalentClass	BAO:0002432	gene knock in	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	PlannedProcess	assay method component	gene knock in	unique	.
+OBI:0001149	gene knock in	owl:equivalentClass	BAO:0002432	gene knock in	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	PlannedProcess	assay method component	gene knock in	unique	.
+OBI:0001149	gene knock in	owl:equivalentClass	BAO:0002432	gene knock in	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	PlannedProcess	assay method component	geneinknock	unique	.
+OBI:0302887	staining	owl:equivalentClass	BAO:0000135	stains	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	PlannedProcess	stains	stain	unique	.
+OBI:0002174	immunocytochemistry	owl:equivalentClass	BAO:0000416	immunocytochemistry	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Assay	assay method component	immunocytochemistri	unique	.
+OBI:0002174	immunocytochemistry	owl:equivalentClass	BAO:0000416	immunocytochemistry	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Assay	assay method component	immunocytochemistry	unique	.
+OBI:0002174	immunocytochemistry	owl:equivalentClass	BAO:0000416	immunocytochemistry	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Assay	assay method component	immunocytochemistry	unique	.
+OBI:0400064	laser	owl:equivalentClass	BAO:0150033	laser	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	laser	unique	.
+OBI:0400064	laser	owl:equivalentClass	BAO:0150033	laser	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Device	assay method component	laser	unique	.
+OBI:0400064	laser	owl:equivalentClass	BAO:0150033	laser	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	laser	unique	.
+OBI:0400033	diode laser	owl:equivalentClass	BAO:0150034	diode laser	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Device	assay method component	diode las	unique	.
+OBI:0400033	diode laser	owl:equivalentClass	BAO:0150034	diode laser	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	diode laser	unique	.
+OBI:0400033	diode laser	owl:equivalentClass	BAO:0150034	diode laser	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	diodelaser	unique	.
+OBI:0400062	krypton ion laser	owl:equivalentClass	BAO:0150040	krypton-ion laser	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	ionkryptonlaser	unique	.
+OBI:0400169	microscope	owl:equivalentClass	BAO:0150008	microscope	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Device	assay method component	microscop	unique	.
+OBI:0400169	microscope	owl:equivalentClass	BAO:0150008	microscope	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	microscope	unique	.
+OBI:0400169	microscope	owl:equivalentClass	BAO:0150008	microscope	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	microscope	unique	.
+OBI:0000940	optical microscope	owl:equivalentClass	BAO:0150009	optical microscope	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	microscopeoptical	unique	.
+OBI:0000940	optical microscope	owl:equivalentClass	BAO:0150009	optical microscope	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Device	assay method component	optical microscop	unique	.
+OBI:0000940	optical microscope	owl:equivalentClass	BAO:0150009	optical microscope	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	optical microscope	unique	.
+OBI:0001148	gene knock out	owl:equivalentClass	BAO:0002441	gene knockout	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	PlannedProcess	assay method component	geneknockout	unique	.
+OBI:0000716	ChIP-seq assay	owl:equivalentClass	BAO:0010035	ChIP-seq assay	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	Assay	assay bioassay component	assaychipseq	unique	.
+OBI:0000716	ChIP-seq assay	owl:equivalentClass	BAO:0010035	ChIP-seq assay	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	Assay	assay bioassay component	chip-seq assai	unique	.
+OBI:0000716	ChIP-seq assay	owl:equivalentClass	BAO:0010035	ChIP-seq assay	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	Assay	assay bioassay component	chip-seq assay	unique	.
+OBI:0400065	light source	owl:equivalentClass	BAO:0150029	light source	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Device	assay method component	light sourc	unique	.
+OBI:0400065	light source	owl:equivalentClass	BAO:0150029	light source	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	light source	unique	.
+OBI:0400065	light source	owl:equivalentClass	BAO:0150029	light source	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	lightsource	unique	.
+OBI:0002567	sequence alignment	owl:equivalentClass	BAO:0002231	sequence alignment	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	PlannedProcess	assay method component	alignmentsequence	unique	.
+OBI:0002567	sequence alignment	owl:equivalentClass	BAO:0002231	sequence alignment	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	PlannedProcess	assay method component	sequence align	unique	.
+OBI:0002567	sequence alignment	owl:equivalentClass	BAO:0002231	sequence alignment	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	PlannedProcess	assay method component	sequence alignment	unique	.
+OBI:0001105	scanning force microscope	owl:equivalentClass	BAO:0150014	scanning force microscope	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	forcemicroscopescanning	unique	.
+OBI:0001105	scanning force microscope	owl:equivalentClass	BAO:0150014	scanning force microscope	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Device	assay method component	scanning force microscop	unique	.
+OBI:0001105	scanning force microscope	owl:equivalentClass	BAO:0150014	scanning force microscope	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	scanning force microscope	unique	.
+OBI:0000457	manufacturing	owl:equivalentClass	BAO:0000737	has manufacturer	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	PlannedProcess	has manufacturer	manufactur	many_to_one	.
+OBI:0400170	microscope slide	owl:equivalentClass	BAO:0010015	microscope slide	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Device	assay bioassay component	microscope slid	unique	.
+OBI:0400170	microscope slide	owl:equivalentClass	BAO:0010015	microscope slide	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay bioassay component	microscope slide	unique	.
+OBI:0400170	microscope slide	owl:equivalentClass	BAO:0010015	microscope slide	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay bioassay component	microscopeslide	unique	.
+OBI:0400034	dye laser	owl:equivalentClass	BAO:0150035	dye laser	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Device	assay method component	dye las	unique	.
+OBI:0400034	dye laser	owl:equivalentClass	BAO:0150035	dye laser	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	dye laser	unique	.
+OBI:0400034	dye laser	owl:equivalentClass	BAO:0150035	dye laser	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	dyelaser	unique	.
+OBI:0400147	microarray	owl:equivalentClass	BAO:0010048	Microarray	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Device	assay bioassay component	microarrai	unique	.
+OBI:0400147	microarray	owl:equivalentClass	BAO:0010048	Microarray	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay bioassay component	microarray	unique	.
+OBI:0400147	microarray	owl:equivalentClass	BAO:0010048	Microarray	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay bioassay component	microarray	unique	.
+OBI:0600041	concentrate	owl:equivalentClass	BAO:0000338	has concentration	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	PlannedProcess	has concentration	concentr	unique	.
+OBI:0001443	Luminex	owl:equivalentClass	BAO:0002021	Luminex	Lexical	OBI	BAO	rdf_matcher	0.8818562360532485	rdfs:label	rdfs:label	organization	organization	luminex	unique	.
+OBI:0001443	Luminex	owl:equivalentClass	BAO:0002021	Luminex	Lexical|Stemming	OBI	BAO	rdf_matcher	0.568874072230784	rdfs:label	rdfs:label	organization	organization	luminex	unique	.
+OBI:0001443	Luminex	owl:equivalentClass	BAO:0002021	Luminex	Lexical	OBI	BAO	rdf_matcher	0.8818562360532485	rdfs:label	rdfs:label	organization	organization	luminex	unique	.
+OBI:0001079	confocal microscope	owl:equivalentClass	BAO:0150010	confocal microscope	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Device	assay method component	confocal microscop	unique	.
+OBI:0001079	confocal microscope	owl:equivalentClass	BAO:0150010	confocal microscope	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	confocal microscope	unique	.
+OBI:0001079	confocal microscope	owl:equivalentClass	BAO:0150010	confocal microscope	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	confocalmicroscope	unique	.
+OBI:0400083	photodiode	owl:equivalentClass	BAO:0150027	photodiode	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Device	assay method component	photodiod	unique	.
+OBI:0400083	photodiode	owl:equivalentClass	BAO:0150027	photodiode	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	photodiode	unique	.
+OBI:0400083	photodiode	owl:equivalentClass	BAO:0150027	photodiode	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	photodiode	unique	.
+OBI:0000776	Applied Biosystems	owl:equivalentClass	BAO:0000851	Applied Biosystems	Lexical|Stemming	OBI	BAO	rdf_matcher	0.568874072230784	rdfs:label	rdfs:label	organization	organization	applied biosystem	unique	.
+OBI:0000776	Applied Biosystems	owl:equivalentClass	BAO:0000851	Applied Biosystems	Lexical	OBI	BAO	rdf_matcher	0.8818562360532485	rdfs:label	rdfs:label	organization	organization	applied biosystems	unique	.
+OBI:0000776	Applied Biosystems	owl:equivalentClass	BAO:0000851	Applied Biosystems	Lexical	OBI	BAO	rdf_matcher	0.8818562360532485	rdfs:label	rdfs:label	organization	organization	appliedbiosystems	unique	.
+OBI:0001055	spinning-disk confocal microscope	owl:equivalentClass	BAO:0150012	spinning-disk confocal microscope	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	confocaldiskmicroscopespinning	unique	.
+OBI:0001055	spinning-disk confocal microscope	owl:equivalentClass	BAO:0150012	spinning-disk confocal microscope	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Device	assay method component	spinning-disk confocal microscop	unique	.
+OBI:0001055	spinning-disk confocal microscope	owl:equivalentClass	BAO:0150012	spinning-disk confocal microscope	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	spinning-disk confocal microscope	unique	.
+OBI:0002193	Thermo Fisher Scientific	owl:equivalentClass	BAO:0002653	Thermo Fisher Scientific	Lexical	OBI	BAO	rdf_matcher	0.8818562360532485	rdfs:label	rdfs:label	organization	organization	fisherrmoscientific	unique	.
+OBI:0002193	Thermo Fisher Scientific	owl:equivalentClass	BAO:0002653	Thermo Fisher Scientific	Lexical|Stemming	OBI	BAO	rdf_matcher	0.568874072230784	rdfs:label	rdfs:label	organization	organization	thermo fisher scientif	unique	.
+OBI:0002193	Thermo Fisher Scientific	owl:equivalentClass	BAO:0002653	Thermo Fisher Scientific	Lexical	OBI	BAO	rdf_matcher	0.8818562360532485	rdfs:label	rdfs:label	organization	organization	thermo fisher scientific	unique	.
+OBI:0000794	transcription factor binding site	owl:equivalentClass	BAO:0003017	transcription factor binding site	Lexical	OBI	BAO	rdf_matcher	0.8818562360532485	rdfs:label	rdfs:label	SequenceFeature	assay biology component	bindingfactorsitetranscription	unique	.
+OBI:0000794	transcription factor binding site	owl:equivalentClass	BAO:0003017	transcription factor binding site	Lexical|Stemming	OBI	BAO	rdf_matcher	0.568874072230784	rdfs:label	rdfs:label	SequenceFeature	assay biology component	transcription factor binding sit	unique	.
+OBI:0000794	transcription factor binding site	owl:equivalentClass	BAO:0003017	transcription factor binding site	Lexical	OBI	BAO	rdf_matcher	0.8818562360532485	rdfs:label	rdfs:label	SequenceFeature	assay biology component	transcription factor binding site	unique	.
+OBI:0400009	arc lamp	owl:equivalentClass	BAO:0150030	arc lamp	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	arc lamp	unique	.
+OBI:0400009	arc lamp	owl:equivalentClass	BAO:0150030	arc lamp	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Device	assay method component	arc lamp	unique	.
+OBI:0400009	arc lamp	owl:equivalentClass	BAO:0150030	arc lamp	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	arclamp	unique	.
+OBI:0001986	immunohistochemistry	owl:equivalentClass	BAO:0000415	immunohistochemistry	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Assay	assay method component	immunohistochemistri	unique	.
+OBI:0001986	immunohistochemistry	owl:equivalentClass	BAO:0000415	immunohistochemistry	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Assay	assay method component	immunohistochemistry	unique	.
+OBI:0001986	immunohistochemistry	owl:equivalentClass	BAO:0000415	immunohistochemistry	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Assay	assay method component	immunohistochemistry	unique	.
+OBI:0400060	ion laser	owl:equivalentClass	BAO:0150037	ion laser	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Device	assay method component	ion las	unique	.
+OBI:0400060	ion laser	owl:equivalentClass	BAO:0150037	ion laser	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	ion laser	unique	.
+OBI:0400060	ion laser	owl:equivalentClass	BAO:0150037	ion laser	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	ionlaser	unique	.
+OBI:0001146	binding assay	owl:equivalentClass	BAO:0002989	binding assay	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	Assay	assay bioassay component	assaybinding	unique	.
+OBI:0001146	binding assay	owl:equivalentClass	BAO:0002989	binding assay	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	Assay	assay bioassay component	binding assai	unique	.
+OBI:0001146	binding assay	owl:equivalentClass	BAO:0002989	binding assay	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	Assay	assay bioassay component	binding assay	unique	.
+OBI:0000427	enzyme	owl:equivalentClass	BAO:0000279	enzyme	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	Enzyme	assay biology component	enzym	unique	.
+OBI:0000427	enzyme	owl:equivalentClass	BAO:0000279	enzyme	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	Enzyme	assay biology component	enzyme	unique	.
+OBI:0000427	enzyme	owl:equivalentClass	BAO:0000279	enzyme	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	Enzyme	assay biology component	enzyme	unique	.
+OBI:0000522	vial	owl:equivalentClass	BAO:0000577	vial	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay bioassay component	vial	unique	.
+OBI:0000522	vial	owl:equivalentClass	BAO:0000577	vial	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Device	assay bioassay component	vial	unique	.
+OBI:0000522	vial	owl:equivalentClass	BAO:0000577	vial	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay bioassay component	vial	unique	.
+OBI:0400010	argon ion laser	owl:equivalentClass	BAO:0150038	argon-ion laser	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	argonionlaser	unique	.
+OBI:0400074	mixed argon-krypton gas laser	owl:equivalentClass	BAO:0150041	mixed argon-krypton gas laser	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	argongaskryptonlasermixed	unique	.
+OBI:0400074	mixed argon-krypton gas laser	owl:equivalentClass	BAO:0150041	mixed argon-krypton gas laser	Lexical|Stemming	OBI	BAO	rdf_matcher	0.7252004253240047	rdfs:label	rdfs:label	Device	assay method component	mixed argon-krypton gas las	unique	.
+OBI:0400074	mixed argon-krypton gas laser	owl:equivalentClass	BAO:0150041	mixed argon-krypton gas laser	Lexical	OBI	BAO	rdf_matcher	0.9372195592398013	rdfs:label	rdfs:label	Device	assay method component	mixed argon-krypton gas laser	unique	.
+OBI:0000891	cell proliferation assay	owl:equivalentClass	BAO:0002805	cell proliferation assay	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	Assay	assay bioassay component	assaycellproliferation	unique	.
+OBI:0000891	cell proliferation assay	owl:equivalentClass	BAO:0002805	cell proliferation assay	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	Assay	assay bioassay component	cell proliferation assai	unique	.
+OBI:0000891	cell proliferation assay	owl:equivalentClass	BAO:0002805	cell proliferation assay	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	Assay	assay bioassay component	cell proliferation assay	unique	.
+OBI:0001144	binding constant	owl:equivalentClass	BAO:0000587	binding constant	Lexical|Stemming	OBI	BAO	rdf_matcher	0.39750105926563917	rdfs:label	rdfs:label	entity	assay endpoint component	binding const	unique	.
+OBI:0001144	binding constant	owl:equivalentClass	BAO:0000587	binding constant	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	entity	assay endpoint component	binding constant	unique	.
+OBI:0001144	binding constant	owl:equivalentClass	BAO:0000587	binding constant	Lexical	OBI	BAO	rdf_matcher	0.788678758928574	rdfs:label	rdfs:label	entity	assay endpoint component	bindingconstant	unique	.
+OBI:0001434	Invitrogen	owl:equivalentClass	BAO:0000677	Invitrogen	Lexical	OBI	BAO	rdf_matcher	0.8818562360532485	rdfs:label	rdfs:label	organization	organization	invitrogen	unique	.
+OBI:0001434	Invitrogen	owl:equivalentClass	BAO:0000677	Invitrogen	Lexical|Stemming	OBI	BAO	rdf_matcher	0.568874072230784	rdfs:label	rdfs:label	organization	organization	invitrogen	unique	.
+OBI:0001434	Invitrogen	owl:equivalentClass	BAO:0000677	Invitrogen	Lexical	OBI	BAO	rdf_matcher	0.8818562360532485	rdfs:label	rdfs:label	organization	organization	invitrogen	unique	.
